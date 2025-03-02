@@ -33,7 +33,7 @@ def wait_for_divs_to_stabilize(locator, stable_time=1.0, timeout=10):
 
 def main():
     # Provided Google My Maps URL
-    mymaps_url = "https://www.google.com/maps/d/u/0/viewer?mid=1euHffpk5Y5Tg8a4ZgE9soJoriG4ZQIg&ll=34.90644730000001%2C135.79310670000004&z=8"
+    mymaps_url = ""
     with sync_playwright() as p:
         # Set headless=True for background execution
         browser = p.chromium.launch(headless=False)
