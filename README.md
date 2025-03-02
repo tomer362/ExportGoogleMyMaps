@@ -13,22 +13,11 @@ This project is a Python-based application that uses Playwright to navigate to a
 - Python 3.x
 - Playwright
 
-## Installation
-
-1. Clone the repository:
-    ```sh
-    git clone <repository-url>
-    ```
-2. Install the required packages:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. Run the script:
     ```sh
-    python script.py
+    python main.py
     ```
 2. Follow the prompts to enter the MyMaps URL.
 
